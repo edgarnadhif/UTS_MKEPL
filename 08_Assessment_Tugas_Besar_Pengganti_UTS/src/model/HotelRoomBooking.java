@@ -2,14 +2,14 @@ import java.util.Date;
 
 public class HotelRoomBooking {
 
-
+    
     public void cetakDetailPemesanan() {
         System.out.println("===== DETAIL PEMESANAN KAMAR =====");
-        System.out.println("Nama Pemesan : " + namaPemesan);
-        System.out.println("Jenis Kelamin: " + jenisKelamin);
-        System.out.println("No. KTP      : " + nomorKTP);
-        System.out.println("Telepon      : " + nomorTelepon);
-        System.out.println("Email        : " + email);
+        // System.out.println("Nama Pemesan : " + namaPemesan);
+        // System.out.println("Jenis Kelamin: " + jenisKelamin);
+        // System.out.println("No. KTP      : " + nomorKTP);
+        // System.out.println("Telepon      : " + nomorTelepon);
+        // System.out.println("Email        : " + email);
         System.out.println("Jenis Kamar  : " + jenisKamar);
         System.out.println("Jumlah Tamu  : " + jumlahTamu);
         System.out.println("Jumlah Malam : " + jumlahMalam);
