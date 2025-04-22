@@ -6,7 +6,6 @@
         private String email;
         private String jenisKelamin;
     
-        // Constructor
         public Guest(String nama, String nomorKTP, String nomorTelepon, String email, String jenisKelamin) {
             this.nama = nama;
             this.nomorKTP = nomorKTP;
@@ -15,7 +14,6 @@
             this.jenisKelamin = jenisKelamin;
         }
     
-        // Getter
         public String getNama() { return nama; }
         public String getNomorKTP() { return nomorKTP; }
         public String getNomorTelepon() { return nomorTelepon; }
