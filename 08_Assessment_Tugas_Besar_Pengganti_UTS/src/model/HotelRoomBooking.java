@@ -8,7 +8,6 @@ public class HotelRoomBooking {
         this.booking = booking;
     }
 
-    
     public void cetakDetailPemesanan() {
         System.out.println("===== DETAIL PEMESANAN KAMAR =====");
         System.out.println("Nama Pemesan : " + guest.getNama());
@@ -29,5 +28,4 @@ public class HotelRoomBooking {
         System.out.println("Tipe Tamu    : " + booking.klasifikasiTamu());
         System.out.println("===================================");
     }
-
 }
